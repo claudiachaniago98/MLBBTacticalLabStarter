@@ -1,0 +1,1 @@
+[{"title":"Patch data baseline — 26 Oct 2026","note":"Dataset starter untuk demonstrasi. Counter/meta harus diverifikasi dan diperbarui saat patch berubah. Struktur JSON sengaja sederhana agar mudah diedit."},{"title":"Analyzer v1","note":"Scoring lokal: role coverage, CC, durability, mobility, damage balance, direct counter, dan duplicate-role penalty."}]
