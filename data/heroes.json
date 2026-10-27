@@ -1,0 +1,986 @@
+{
+  "dataset_status": "starter_reference_not_live_verified",
+  "patch_label": "Belum diverifikasi — perbarui sebelum publikasi",
+  "heroes": [
+    {
+      "id": "miya",
+      "name": "Miya",
+      "roles": [
+        "Gold Lane"
+      ],
+      "type": "Marksman",
+      "difficulty": "Easy",
+      "specialties": [
+        "DPS",
+        "Late game"
+      ],
+      "counters": [
+        "Saber",
+        "Natalia",
+        "Lolita"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Angela"
+      ],
+      "notes": "Rentan terhadap burst dan dive; perlindungan tim sangat membantu."
+    },
+    {
+      "id": "balmond",
+      "name": "Balmond",
+      "roles": [
+        "Jungle",
+        "EXP Lane"
+      ],
+      "type": "Fighter",
+      "difficulty": "Easy",
+      "specialties": [
+        "Sustain",
+        "Objective"
+      ],
+      "counters": [
+        "Karrie",
+        "Valir",
+        "Dyrroth"
+      ],
+      "synergy": [
+        "Angela",
+        "Mathilda"
+      ],
+      "notes": "Perhatikan anti-heal dan kontrol saat contest objektif."
+    },
+    {
+      "id": "saber",
+      "name": "Saber",
+      "roles": [
+        "Jungle",
+        "Roam"
+      ],
+      "type": "Assassin",
+      "difficulty": "Easy",
+      "specialties": [
+        "Pick-off",
+        "Burst"
+      ],
+      "counters": [
+        "Minsitthar",
+        "Diggie",
+        "Kaja"
+      ],
+      "synergy": [
+        "Franco",
+        "Eudora"
+      ],
+      "notes": "Pilih target bernilai tinggi dan hindari membuang ultimate ke frontline."
+    },
+    {
+      "id": "alice",
+      "name": "Alice",
+      "roles": [
+        "Mid Lane",
+        "EXP Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Medium",
+      "specialties": [
+        "Sustain",
+        "Teamfight"
+      ],
+      "counters": [
+        "Baxia",
+        "Karrie",
+        "Valir"
+      ],
+      "synergy": [
+        "Atlas",
+        "Tigreal"
+      ],
+      "notes": "Nilai sustain, akses masuk, dan ancaman anti-heal."
+    },
+    {
+      "id": "nana",
+      "name": "Nana",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Easy",
+      "specialties": [
+        "Poke",
+        "Anti-dive"
+      ],
+      "counters": [
+        "Lolita",
+        "Chou",
+        "Lancelot"
+      ],
+      "synergy": [
+        "Saber",
+        "Tigreal"
+      ],
+      "notes": "Gunakan kontrol area dan skill defensif untuk menghentikan dive."
+    },
+    {
+      "id": "tigreal",
+      "name": "Tigreal",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Initiator",
+        "CC"
+      ],
+      "counters": [
+        "Diggie",
+        "Valir",
+        "Akai"
+      ],
+      "synergy": [
+        "Odette",
+        "Pharsa",
+        "Yve"
+      ],
+      "notes": "Butuh follow-up damage dan kontrol vision sebelum inisiasi."
+    },
+    {
+      "id": "alucard",
+      "name": "Alucard",
+      "roles": [
+        "Jungle",
+        "EXP Lane"
+      ],
+      "type": "Fighter/Assassin",
+      "difficulty": "Medium",
+      "specialties": [
+        "Sustain",
+        "Dive"
+      ],
+      "counters": [
+        "Karrie",
+        "Baxia",
+        "Franco"
+      ],
+      "synergy": [
+        "Angela",
+        "Mathilda"
+      ],
+      "notes": "Waspadai crowd control berantai dan anti-heal."
+    },
+    {
+      "id": "karina",
+      "name": "Karina",
+      "roles": [
+        "Jungle"
+      ],
+      "type": "Assassin",
+      "difficulty": "Medium",
+      "specialties": [
+        "Magic burst",
+        "Reset"
+      ],
+      "counters": [
+        "Kaja",
+        "Franco",
+        "Saber"
+      ],
+      "synergy": [
+        "Atlas",
+        "Tigreal"
+      ],
+      "notes": "Cari target low-health; hindari kontrol yang menahan akses masuk."
+    },
+    {
+      "id": "akai",
+      "name": "Akai",
+      "roles": [
+        "Jungle",
+        "Roam"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Displacement",
+        "Objective"
+      ],
+      "counters": [
+        "Diggie",
+        "Valir",
+        "Karrie"
+      ],
+      "synergy": [
+        "Pharsa",
+        "Yve",
+        "Saber"
+      ],
+      "notes": "Posisi ultimate dapat memisahkan carry dari timnya."
+    },
+    {
+      "id": "franco",
+      "name": "Franco",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Pick-off",
+        "Suppression"
+      ],
+      "counters": [
+        "Diggie",
+        "Wanwan",
+        "Minsitthar"
+      ],
+      "synergy": [
+        "Saber",
+        "Eudora"
+      ],
+      "notes": "Ancaman hook bisa mengubah ruang gerak lawan; akurasi sangat penting."
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "roles": [
+        "Jungle",
+        "EXP Lane"
+      ],
+      "type": "Fighter",
+      "difficulty": "Easy",
+      "specialties": [
+        "Push",
+        "Objective"
+      ],
+      "counters": [
+        "Karrie",
+        "Valir",
+        "Lunox"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas"
+      ],
+      "notes": "Nilai kemampuan push dan tekanan objektif dalam komposisi."
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "roles": [
+        "Gold Lane"
+      ],
+      "type": "Marksman",
+      "difficulty": "Medium",
+      "specialties": [
+        "Burst",
+        "Crit"
+      ],
+      "counters": [
+        "Saber",
+        "Natalia",
+        "Lolita"
+      ],
+      "synergy": [
+        "Diggie",
+        "Tigreal"
+      ],
+      "notes": "Butuh ruang farming dan perlindungan saat teamfight."
+    },
+    {
+      "id": "clint",
+      "name": "Clint",
+      "roles": [
+        "Gold Lane"
+      ],
+      "type": "Marksman",
+      "difficulty": "Easy",
+      "specialties": [
+        "Poke",
+        "Burst"
+      ],
+      "counters": [
+        "Saber",
+        "Natalia",
+        "Lolita"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Mathilda"
+      ],
+      "notes": "Manfaatkan jarak dan poke; rentan terhadap dive terkoordinasi."
+    },
+    {
+      "id": "rafaela",
+      "name": "Rafaela",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Support",
+      "difficulty": "Easy",
+      "specialties": [
+        "Heal",
+        "Speed"
+      ],
+      "counters": [
+        "Baxia",
+        "Saber",
+        "Natalia"
+      ],
+      "synergy": [
+        "Bruno",
+        "Claude",
+        "Yi Sun-shin"
+      ],
+      "notes": "Nilai sustain dan mobilitas tim, serta ancaman burst."
+    },
+    {
+      "id": "eudora",
+      "name": "Eudora",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Easy",
+      "specialties": [
+        "Burst",
+        "Pick-off"
+      ],
+      "counters": [
+        "Kagura",
+        "Lancelot",
+        "Lolita"
+      ],
+      "synergy": [
+        "Franco",
+        "Tigreal"
+      ],
+      "notes": "Kontrol bush dan target prioritas adalah kunci."
+    },
+    {
+      "id": "layla",
+      "name": "Layla",
+      "roles": [
+        "Gold Lane"
+      ],
+      "type": "Marksman",
+      "difficulty": "Easy",
+      "specialties": [
+        "Range",
+        "Late game"
+      ],
+      "counters": [
+        "Saber",
+        "Natalia",
+        "Lolita"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Angela"
+      ],
+      "notes": "Perlu peel dan posisi aman untuk mengubah range menjadi damage."
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Tank/Support",
+      "difficulty": "Medium",
+      "specialties": [
+        "Heal",
+        "CC"
+      ],
+      "counters": [
+        "Diggie",
+        "Valir",
+        "Karrie"
+      ],
+      "synergy": [
+        "Odette",
+        "Pharsa",
+        "Claude"
+      ],
+      "notes": "Timing engage dan follow-up area menentukan nilai teamfight."
+    },
+    {
+      "id": "akai2",
+      "name": "Atlas",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Initiator",
+        "CC"
+      ],
+      "counters": [
+        "Diggie",
+        "Valir",
+        "Akai"
+      ],
+      "synergy": [
+        "Odette",
+        "Pharsa",
+        "Yve"
+      ],
+      "notes": "Cari sudut inisiasi dan pastikan tim siap follow-up."
+    },
+    {
+      "id": "diggie",
+      "name": "Diggie",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Support",
+      "difficulty": "Medium",
+      "specialties": [
+        "Anti-CC",
+        "Utility"
+      ],
+      "counters": [
+        "Saber",
+        "Natalia",
+        "Lancelot"
+      ],
+      "synergy": [
+        "Bruno",
+        "Claude",
+        "Pharsa"
+      ],
+      "notes": "Ultimate bernilai tinggi saat lawan mengandalkan crowd control."
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "roles": [
+        "EXP Lane",
+        "Roam"
+      ],
+      "type": "Fighter",
+      "difficulty": "Medium",
+      "specialties": [
+        "CC",
+        "Sustain"
+      ],
+      "counters": [
+        "Valir",
+        "Karrie",
+        "Baxia"
+      ],
+      "synergy": [
+        "Pharsa",
+        "Claude",
+        "Yve"
+      ],
+      "notes": "Butuh follow-up dan timing masuk yang tepat."
+    },
+    {
+      "id": "chou",
+      "name": "Chou",
+      "roles": [
+        "EXP Lane",
+        "Roam"
+      ],
+      "type": "Fighter",
+      "difficulty": "Hard",
+      "specialties": [
+        "Pick-off",
+        "Displacement"
+      ],
+      "counters": [
+        "Minsitthar",
+        "Khufra",
+        "Ruby"
+      ],
+      "synergy": [
+        "Saber",
+        "Eudora",
+        "Claude"
+      ],
+      "notes": "Role dan build berubah sesuai kebutuhan draft; evaluasi eksekusi."
+    },
+    {
+      "id": "diggie2",
+      "name": "Karrie",
+      "roles": [
+        "Gold Lane",
+        "Jungle"
+      ],
+      "type": "Marksman",
+      "difficulty": "Medium",
+      "specialties": [
+        "Tank shred",
+        "True damage"
+      ],
+      "counters": [
+        "Saber",
+        "Natalia",
+        "Lolita"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Diggie",
+        "Angela"
+      ],
+      "notes": "Bisa menjadi opsi melawan frontline tebal, tetapi tetap rentan dive."
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "roles": [
+        "EXP Lane",
+        "Jungle",
+        "Roam"
+      ],
+      "type": "Fighter",
+      "difficulty": "Medium",
+      "specialties": [
+        "Clone",
+        "Split push"
+      ],
+      "counters": [
+        "Baxia",
+        "Thamuz",
+        "Minsitthar"
+      ],
+      "synergy": [
+        "Angela",
+        "Mathilda",
+        "Diggie"
+      ],
+      "notes": "Roam adalah opsi situasional, bukan rekomendasi otomatis; cek utilitas, ekonomi, dan kebutuhan tim."
+    },
+    {
+      "id": "natalia",
+      "name": "Natalia",
+      "roles": [
+        "Roam",
+        "Jungle"
+      ],
+      "type": "Assassin",
+      "difficulty": "Hard",
+      "specialties": [
+        "Ambush",
+        "Silence"
+      ],
+      "counters": [
+        "Saber",
+        "Eudora",
+        "Rafaela"
+      ],
+      "synergy": [
+        "Franco",
+        "Kaja"
+      ],
+      "notes": "Nilai ancaman flank, vision, dan akses ke backline."
+    },
+    {
+      "id": "kagura",
+      "name": "Kagura",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Hard",
+      "specialties": [
+        "Mobility",
+        "Burst"
+      ],
+      "counters": [
+        "Eudora",
+        "Saber",
+        "Franco"
+      ],
+      "synergy": [
+        "Atlas",
+        "Tigreal"
+      ],
+      "notes": "Perhatikan cooldown escape dan kontrol terhadap mobilitas."
+    },
+    {
+      "id": "lancelot",
+      "name": "Lancelot",
+      "roles": [
+        "Jungle"
+      ],
+      "type": "Assassin",
+      "difficulty": "Hard",
+      "specialties": [
+        "Mobility",
+        "Burst"
+      ],
+      "counters": [
+        "Minsitthar",
+        "Khufra",
+        "Franco"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas"
+      ],
+      "notes": "Kontrol area dan timing crowd control dapat membatasi jalur masuk."
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Medium",
+      "specialties": [
+        "AoE",
+        "Teamfight"
+      ],
+      "counters": [
+        "Diggie",
+        "Chou",
+        "Franco"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas",
+        "Minotaur"
+      ],
+      "notes": "Perlu setup crowd control dan perlindungan saat channeling."
+    },
+    {
+      "id": "valir",
+      "name": "Valir",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Medium",
+      "specialties": [
+        "Poke",
+        "Anti-dive"
+      ],
+      "counters": [
+        "Kagura",
+        "Lunox",
+        "Lancelot"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Ruby"
+      ],
+      "notes": "Knockback dan slow berguna untuk melindungi ruang belakang."
+    },
+    {
+      "id": "angela",
+      "name": "Angela",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Support",
+      "difficulty": "Medium",
+      "specialties": [
+        "Heal",
+        "Global support"
+      ],
+      "counters": [
+        "Baxia",
+        "Saber",
+        "Natalia"
+      ],
+      "synergy": [
+        "Alucard",
+        "Sun",
+        "Balmond"
+      ],
+      "notes": "Pilih host yang dapat masuk dan bertahan; perhatikan anti-heal."
+    },
+    {
+      "id": "baxia",
+      "name": "Baxia",
+      "roles": [
+        "Jungle",
+        "Roam",
+        "EXP Lane"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Anti-heal",
+        "Durability"
+      ],
+      "counters": [
+        "Karrie",
+        "Lunox",
+        "Valir"
+      ],
+      "synergy": [
+        "Angela",
+        "Pharsa",
+        "Yve"
+      ],
+      "notes": "Bisa menekan sustain lawan; perhatikan damage berkelanjutan dan kiting."
+    },
+    {
+      "id": "khufra",
+      "name": "Khufra",
+      "roles": [
+        "Roam"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Anti-mobility",
+        "CC"
+      ],
+      "counters": [
+        "Diggie",
+        "Valir",
+        "Akai"
+      ],
+      "synergy": [
+        "Pharsa",
+        "Odette",
+        "Saber"
+      ],
+      "notes": "Efektif saat lawan sangat bergantung pada dash; timing tetap penting."
+    },
+    {
+      "id": "wanwan",
+      "name": "Wanwan",
+      "roles": [
+        "Gold Lane"
+      ],
+      "type": "Marksman",
+      "difficulty": "Hard",
+      "specialties": [
+        "Mobility",
+        "Reset"
+      ],
+      "counters": [
+        "Saber",
+        "Lolita",
+        "Franco"
+      ],
+      "synergy": [
+        "Diggie",
+        "Tigreal"
+      ],
+      "notes": "Lindungi marksman dari hard CC dan tekanan burst."
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "roles": [
+        "Gold Lane"
+      ],
+      "type": "Marksman",
+      "difficulty": "Hard",
+      "specialties": [
+        "Mobility",
+        "AoE DPS"
+      ],
+      "counters": [
+        "Saber",
+        "Kaja",
+        "Franco"
+      ],
+      "synergy": [
+        "Diggie",
+        "Tigreal",
+        "Angela"
+      ],
+      "notes": "Butuh ruang farming dan timing masuk yang tepat."
+    },
+    {
+      "id": "pharsa",
+      "name": "Pharsa",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Medium",
+      "specialties": [
+        "Long range",
+        "Zone control"
+      ],
+      "counters": [
+        "Natalia",
+        "Saber",
+        "Lancelot"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas",
+        "Akai"
+      ],
+      "notes": "Jaga posisi saat menyalurkan damage jarak jauh."
+    },
+    {
+      "id": "yve",
+      "name": "Yve",
+      "roles": [
+        "Mid Lane"
+      ],
+      "type": "Mage",
+      "difficulty": "Medium",
+      "specialties": [
+        "Zone control",
+        "Poke"
+      ],
+      "counters": [
+        "Natalia",
+        "Saber",
+        "Lancelot"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas",
+        "Minotaur"
+      ],
+      "notes": "Zoning kuat jika tim mampu mengunci area dan melindungi posisi."
+    },
+    {
+      "id": "fredrinn",
+      "name": "Fredrinn",
+      "roles": [
+        "Jungle",
+        "EXP Lane"
+      ],
+      "type": "Tank/Fighter",
+      "difficulty": "Medium",
+      "specialties": [
+        "Frontline",
+        "Objective"
+      ],
+      "counters": [
+        "Karrie",
+        "Valir",
+        "Baxia"
+      ],
+      "synergy": [
+        "Pharsa",
+        "Yve",
+        "Angela"
+      ],
+      "notes": "Perhatikan true damage, kiting, dan timing objektif."
+    },
+    {
+      "id": "ling",
+      "name": "Ling",
+      "roles": [
+        "Jungle"
+      ],
+      "type": "Assassin",
+      "difficulty": "Hard",
+      "specialties": [
+        "Mobility",
+        "Backline access"
+      ],
+      "counters": [
+        "Khufra",
+        "Minsitthar",
+        "Saber"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas"
+      ],
+      "notes": "Draft anti-mobility dan kontrol area dapat mengurangi akses ke backline."
+    },
+    {
+      "id": "fanny",
+      "name": "Fanny",
+      "roles": [
+        "Jungle"
+      ],
+      "type": "Assassin",
+      "difficulty": "Very Hard",
+      "specialties": [
+        "Mobility",
+        "Snowball"
+      ],
+      "counters": [
+        "Khufra",
+        "Saber",
+        "Kaja"
+      ],
+      "synergy": [
+        "Tigreal",
+        "Atlas"
+      ],
+      "notes": "Kontrol energi, invade, dan crowd control menjadi bagian dari respons."
+    },
+    {
+      "id": "edith",
+      "name": "Edith",
+      "roles": [
+        "Roam",
+        "EXP Lane"
+      ],
+      "type": "Tank/Marksman",
+      "difficulty": "Medium",
+      "specialties": [
+        "Frontline",
+        "Burst"
+      ],
+      "counters": [
+        "Karrie",
+        "Valir",
+        "Baxia"
+      ],
+      "synergy": [
+        "Pharsa",
+        "Yve",
+        "Claude"
+      ],
+      "notes": "Evaluasi mode bertahan dan damage berdasarkan komposisi."
+    },
+    {
+      "id": "hilda",
+      "name": "Hilda",
+      "roles": [
+        "Roam",
+        "EXP Lane"
+      ],
+      "type": "Fighter/Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Early pressure",
+        "Pick-off"
+      ],
+      "counters": [
+        "Karrie",
+        "Valir",
+        "Ruby"
+      ],
+      "synergy": [
+        "Saber",
+        "Eudora"
+      ],
+      "notes": "Tekanan awal dan kontrol semak menjadi inti gaya bermain."
+    },
+    {
+      "id": "gloo",
+      "name": "Gloo",
+      "roles": [
+        "EXP Lane",
+        "Roam"
+      ],
+      "type": "Tank",
+      "difficulty": "Medium",
+      "specialties": [
+        "Disruption",
+        "Sustain"
+      ],
+      "counters": [
+        "Valir",
+        "Karrie",
+        "Baxia"
+      ],
+      "synergy": [
+        "Pharsa",
+        "Yve"
+      ],
+      "notes": "Pertimbangkan displacement, anti-heal, dan perlindungan carry."
+    }
+  ]
+}
